@@ -1,0 +1,7 @@
+# Ignore everything in this directory
+*
+# Except this 
+!.gitignore
+!/t_compile
+!/t_cache
+!/t_config

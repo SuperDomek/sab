@@ -1,0 +1,5 @@
+[23-Sep-2021 18:36:53 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function import() in /home/eriesjournalcom/public_html/plugins/generic/pdfJsViewer/PdfJsViewerPlugin.inc.php:15
+Stack trace:
+#0 /home/eriesjournalcom/public_html/plugins/generic/pdfJsViewer/index.php(19): require_once()
+#1 {main}
+  thrown in /home/eriesjournalcom/public_html/plugins/generic/pdfJsViewer/PdfJsViewerPlugin.inc.php on line 15
