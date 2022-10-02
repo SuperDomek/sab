@@ -20,6 +20,8 @@ define('SUBMISSION_REVIEWER_RECOMMENDATION_RESUBMIT_HERE', 3);
 define('SUBMISSION_REVIEWER_RECOMMENDATION_RESUBMIT_ELSEWHERE', 4);
 define('SUBMISSION_REVIEWER_RECOMMENDATION_DECLINE', 5);
 define('SUBMISSION_REVIEWER_RECOMMENDATION_SEE_COMMENTS', 6);
+define('SUBMISSION_REVIEWER_RECOMMENDATION_PENDING_MINOR_REVISIONS', 7);
+define('SUBMISSION_REVIEWER_RECOMMENDATION_PENDING_MAJOR_REVISIONS', 8);
 
 define('SUBMISSION_REVIEWER_RATING_VERY_GOOD', 5);
 define('SUBMISSION_REVIEWER_RATING_GOOD', 4);
@@ -660,8 +662,10 @@ class ReviewAssignment extends DataObject {
 		static $reviewerRecommendationOptions = array(
 				'' => 'common.chooseOne',
 				SUBMISSION_REVIEWER_RECOMMENDATION_ACCEPT => 'reviewer.article.decision.accept',
-				SUBMISSION_REVIEWER_RECOMMENDATION_PENDING_REVISIONS => 'reviewer.article.decision.pendingRevisions',
-				//SUBMISSION_REVIEWER_RECOMMENDATION_RESUBMIT_HERE => 'reviewer.article.decision.resubmitHere',
+				//SUBMISSION_REVIEWER_RECOMMENDATION_PENDING_REVISIONS => 'reviewer.article.decision.pendingRevisions',
+				SUBMISSION_REVIEWER_RECOMMENDATION_PENDING_MINOR_REVISIONS => 'reviewer.article.decision.pendingMinorRevisions',
+				SUBMISSION_REVIEWER_RECOMMENDATION_PENDING_MAJOR_REVISIONS => 'reviewer.article.decision.pendingMajorRevisions',
+				SUBMISSION_REVIEWER_RECOMMENDATION_RESUBMIT_HERE => 'reviewer.article.decision.resubmitHere',
 				//SUBMISSION_REVIEWER_RECOMMENDATION_RESUBMIT_ELSEWHERE => 'reviewer.article.decision.resubmitElsewhere',
 				SUBMISSION_REVIEWER_RECOMMENDATION_DECLINE => 'reviewer.article.decision.decline',
 				//SUBMISSION_REVIEWER_RECOMMENDATION_SEE_COMMENTS => 'reviewer.article.decision.seeComments'

@@ -1004,6 +1004,12 @@ msgstr "Accept Submission"
 msgid "reviewer.article.decision.pendingRevisions"
 msgstr "Revisions Required"
 
+msgid "reviewer.article.decision.pendingMinorRevisions"
+msgstr "Minor Revisions"
+
+msgid "reviewer.article.decision.pendingMajorRevisions"
+msgstr "Major Revisions"
+
 msgid "reviewer.article.decision.resubmitHere"
 msgstr "Resubmit for Review"
 
@@ -1011,7 +1017,7 @@ msgid "reviewer.article.decision.resubmitElsewhere"
 msgstr "Resubmit Elsewhere"
 
 msgid "reviewer.article.decision.decline"
-msgstr "Decline Submission"
+msgstr "Reject Submission"
 
 msgid "reviewer.article.decision.seeComments"
 msgstr "See Comments"
